@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt ">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Thermal Conversor</title>
+</head>
+<body>
+    <div id="mainContainer">
+        <div id="title">
+            <h1>Conversor de temperatura</h1>
+        </div>
+
+        <div>
+            <form class="mainForm" id="thermSelectForm">
+                <table>
+                    <tr>
+                        <td id="container-right">
+                            <input type="number" id="thermInput" class="thermDisplay" placeholder="Insira o valor" required></input>
+                            <p>
+                                <select name=selectThermInput id="selectInput" class="selectType" onchange="convert()" required>
+
+                                    <option value="celsius">Celsius</option>
+                                    <option value="fahrenheit" checked>Fahrenheit</option>
+                                    <option value="kelvin">Kelvin</option>
+                                </select>
+                            </p>
+                        </td>
+                        <td id="container-left">
+                            <input id="thermOutput" class="thermDisplay" disabled></input>
+                            <p>
+                                <select name=selectThermOutput id="selectOutput" class="selectType" onchange="convert()">
+
+                                    <option value="celsius">Celsius</option>
+                                    <option value="fahrenheit"563>Fahrenheit</option>
+                                    <option value="kelvin">Kelvin</option>
+                                </select>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+                <button class="selectType" onclick="convert()">Converter</button>
+            </form>
+            
+        </div>
+    </div>
+    <script type="text/javascript" src="js/scripts.js"></script>
+</body> 
+</html>

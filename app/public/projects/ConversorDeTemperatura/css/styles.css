@@ -1,0 +1,105 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700|PT++Mono);
+
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #353535;
+    --tertiary-color: #888888;
+    --quartenary-color: #111111;
+    --quinary-color: #1C1C1C;
+}
+
+body {
+    color: var(--primary-color);
+    background: var(--secondary-color);
+    font-size: 18px;
+    font-family: Lato, sans-serif;
+}
+
+#mainContainer {
+    color: var(--tertiary-color);
+    height: 445px;
+    width: 600px;
+    margin: 10% auto;
+    background: var(--quinary-color);
+    box-shadow: 5px 5px 5px var(--quinary-color);
+    border: solid var(--primary-color);
+    border-width: 2px 2px 2px 2px ;
+    border-radius: 10px;
+}
+
+#title {
+    background: var(--quartenary-color);
+    color: var(--primary-color);
+    padding: 1px;
+    font-size: 15px;
+    font-weight: normal;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+
+table {
+    margin: 30px auto;
+}
+
+td {
+    margin: 5px auto;
+    padding: 8px;
+    border-radius: 5px;
+    border: 3px solid var(--quartenary-color);
+}
+
+.thermDisplay {
+    color: var(--tertiary-color);
+    background: var(--quartenary-color);
+    font-size: 20px;
+    text-align: center;
+    height: 50px;
+    width: 80%;
+}
+
+.thermDisplay:hover {
+    color:var(--quinary-color);
+    background: var(--primary-color);
+}
+
+#thermSelectForm {
+    margin: 10px 10px 10px 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.selectType {
+    color: var(--primary-color);
+    background: var(--quartenary-color);
+    display: block;
+    margin: 30px auto;
+    font-weight: bold;
+    font-size:18px;
+    height: 50px;
+    width: 100%;
+    text-transform: uppercase;
+    border: solid var(--primary-color);
+    border-width: 2px 2px 2px 2px ;
+    border-radius: 10px;
+}
+
+.selectType:hover {
+    color:var(--quinary-color);
+    background: var(--primary-color);
+}
+
+
+/* For exclude scrolling bar in number input.
+Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+  #mainContainer {
+    width: 100%;
+  }
+}

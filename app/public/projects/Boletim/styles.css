@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 26px;
+  padding-bottom: 20px;
+}
+
+body {
+  background: #5555aa;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  margin: auto;
+}
+
+td {
+  border: 1px solid black;
+  width: 5%;
+  height: 20px;
+  background: lavender;
+}
+
+input {
+  text-align: right;
+  border: none;
+  width: 95%;
+  height: 20px;
+  background: ghostwhite;
+}
+
+#container {
+  background: white;
+  color: #5555aa; 
+  width: 90%;
+  max-width: 1100px;
+  min-width: 610px;
+  height: 50%;
+  margin: auto;
+  margin-top: 20vh;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+#setMedia {
+  border: 1px solid black;
+  width: 5%;
+  height: 20px;
+}

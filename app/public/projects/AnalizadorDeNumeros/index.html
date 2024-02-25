@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Analizador de números</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Analizador de números</h1>
+    </header>
+    <section>
+      <div>
+        <input type="number" id="entrada" placeholder="Insira um elemento">
+        <button onclick="adicionarElem()">Adicionar</button>
+      </div>
+      <div>
+        <h3>Lista</h3>
+        <select id="selectSaida" >
+          <option value=""> Vazio</option>
+        </select>
+        <div id="saida">
+          Aguardando...
+        </div>
+        <button onclick="analisar()">Analisar</button>
+      </div>
+    </section>
+    <footer>
+      <p>&copy Swygax & Sky</p>
+    </footer>
+    <script src=script.js></script>
+  </body>
+</html>

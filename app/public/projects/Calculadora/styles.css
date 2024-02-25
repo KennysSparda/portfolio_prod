@@ -1,0 +1,80 @@
+:root  {
+  --primary-color: #ffffff;
+  --secundary-color: Black;
+  --background: #353535;
+}
+body {
+  margin: 0px;
+  background: var(--background);
+}
+
+.container {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
+#mainForm {
+  background: radial-gradient(var(--secundary-color),var(--secundary-color));;
+  width: 240px;
+  height: 350px;
+  margin: auto 100px;
+  border: 5px solid var(--secundary-color);
+  border-radius: 10px;
+  padding: 0px;
+  box-shadow: 5px 5px 5px var(--secundary-color);
+}
+#header {
+  text-align: center;
+  text-shadow: 0px 0px 20px var(--primary-color);
+  width: 240px;
+  height: 70px;
+  margin: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 1px;
+  background: var(--secundary-color);
+}
+input {
+  border: none;
+  text-align: end;
+  height: 30px;
+  width: 185px;
+  background: var(--secundary-color);
+  color: var(--primary-color);
+  text-shadow: 0px 0px 20px var(--primary-color);
+  font-size: 26px;
+}
+#Display3 {
+  text-align:center;
+  height: 30px;
+  width: 30px;
+}
+table {
+  margin: 5px;
+}
+button {
+  height: 40px;
+  width: 40px;
+  background: radial-gradient(var(--primary-color),var(--secundary-color));
+  color: var(--secundary-color);
+  font-size: 26px;
+  border: none;
+  border-radius: 10px;
+}
+button:hover {
+  background: radial-gradient(var(--primary-color),var(--primary-color));
+}
+#btnC {
+  --primary-color: Red;
+}
+#btnF {
+  --primary-color: DodgerBlue;
+}#btnE {
+  --primary-color: Green;
+}

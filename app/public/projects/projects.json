@@ -1,0 +1,51 @@
+[
+  {
+    "projectName": "Blog",
+    "projectPath": "https://cesiane-and-mayke.vercel.app",
+    "projectImage": "/img/projects/blogpessoal.png",
+    "projectInfo": "Next, React, Javascript, CSS e HTML"
+  },
+  {
+    "projectName": "Analizador de Números",
+    "projectPath": "/projects/AnalizadorDeNumeros/index.html",
+    "projectImage": "/img/projects/analizadordenumeros.png",
+    "projectInfo": "Javascript, CSS e HTML"
+  },
+  {
+    "projectName": "Conversor de Temperatura",
+    "projectPath": "/projects/ConversorDeTemperatura/index.html",
+    "projectImage": "/img/projects/conversordetemperatura.png",
+    "projectInfo": "Javascript, CSS e HTML"
+  },
+  {
+    "projectName": "KySound",
+    "projectPath": "/projects/KySound/index.html",
+    "projectImage": "/img/projects/kysound.png",
+    "projectInfo": "Javascript, CSS e HTML"
+  },
+  {
+    "projectName": "Boletim",
+    "projectPath": "/projects/Boletim/index.html",
+    "projectImage": "/img/projects/boletim.png",
+    "projectInfo": "Javascript, CSS e HTML"
+  },
+  {
+    "projectName": "Calculadora",
+    "projectPath": "projects/Calculadora/index.html",
+    "projectImage": "/img/projects/calculadora.png",
+    "projectInfo": "Javascript, CSS e HTML"
+  },
+  {
+    "projectName": "Verificador de Idade",
+    "projectPath": "/projects/VerificadorDeIdade/index.html",
+    "projectImage": "/img/projects/verificadordeidade.png",
+    "projectInfo": "Javascript, CSS e HTML"
+  },
+  {
+    "projectName": "Gerador Sequencial",
+    "projectPath": "/projects/GeradorSequencial/index.html",
+    "projectImage": "/img/projects/geradorsequencial.png",
+    "projectInfo": "Javascript, CSS e HTML"
+  }
+]
+

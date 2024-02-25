@@ -1,0 +1,39 @@
+{
+  "name": "portfolio",
+  "version": "3.7.6",
+  "description": "The place for demonstrate my projects and habilities",
+  "main": "index.js",
+  "dependencies": {
+    "next": "^12.3.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scroll-trigger": "^0.6.14",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "engines": {
+  "node": "16.19.0",
+  "npm": "8.19.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KennysSparda/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KennysSparda/Portfolio/issues"
+  },
+  "homepage": "https://github.com/KennysSparda/Portfolio#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
+  }
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>BOLETIM</title>
+</head>
+<body>
+  <div id="container">
+    <h1>Boletim Escolar</h1>
+    <table>
+      <tr>
+        <th>Disciplinas</th>
+        <th>1°Bimestre</th>
+        <th>2°Bimestre</th>
+        <th>3°Bimestre</th>
+        <th>4°Bimestre</th>
+        <th>Soma</th>
+        <th>Média</th>
+        <th>Situação</th>
+      </tr>
+      <tr>
+        <td>Química</td>
+        <td><input type="number" id="notaDisciplina1_1" placeholder="Inserir nota 1" onchange="calcularDisciplina(1)"></td>
+        <td><input type="number" id="notaDisciplina1_2" placeholder="Inserir nota 2" onchange="calcularDisciplina(1)"></td>
+        <td><input type="number" id="notaDisciplina1_3" placeholder="Inserir nota 3" onchange="calcularDisciplina(1)"></td>
+        <td><input type="number" id="notaDisciplina1_4" placeholder="Inserir nota 4" onchange="calcularDisciplina(1)"></td>
+        <td><p type="number" id="somaDisciplina1"></p></td>
+        <td><p type="number" id="mediaDisciplina1"></p></td>
+        <td><p type="number" id="situacaoDisciplina1"></p></td>
+      </tr>
+      <tr>
+        <td>Física</td>
+        <td><input type="number" id="notaDisciplina2_1" placeholder="Inserir nota 1" onchange="calcularDisciplina(2)"></td>
+        <td><input type="number" id="notaDisciplina2_2" placeholder="Inserir nota 2" onchange="calcularDisciplina(2)"></td>
+        <td><input type="number" id="notaDisciplina2_3" placeholder="Inserir nota 3" onchange="calcularDisciplina(2)"></td>
+        <td><input type="number" id="notaDisciplina2_4" placeholder="Inserir nota 4" onchange="calcularDisciplina(2)"></td>
+        <td><p type="number" id="somaDisciplina2"></p></td>
+        <td><p type="number" id="mediaDisciplina2"></p></td>
+        <td><p type="number" id="situacaoDisciplina2"></p></td>
+      </tr>
+      <tr>
+        <td>Matemática</td>
+        <td><input type="number" id="notaDisciplina3_1" placeholder="Inserir nota 1" onchange="calcularDisciplina(3)"></td>
+        <td><input type="number" id="notaDisciplina3_2" placeholder="Inserir nota 2" onchange="calcularDisciplina(3)"></td>
+        <td><input type="number" id="notaDisciplina3_3" placeholder="Inserir nota 3" onchange="calcularDisciplina(3)"></td>
+        <td><input type="number" id="notaDisciplina3_4" placeholder="Inserir nota 4" onchange="calcularDisciplina(3)"></td>
+        <td><p type="number" id="somaDisciplina3"></p></td>
+        <td><p type="number" id="mediaDisciplina3"></p></td>
+        <td><p type="number" id="situacaoDisciplina3"></p></td>
+      </tr>
+      <tr>
+        <td>Filosofia</td>
+        <td><input type="number" id="notaDisciplina4_1" placeholder="Inserir nota 1" onchange="calcularDisciplina(4)"></td>
+        <td><input type="number" id="notaDisciplina4_2" placeholder="Inserir nota 2" onchange="calcularDisciplina(4)"></td>
+        <td><input type="number" id="notaDisciplina4_3" placeholder="Inserir nota 3" onchange="calcularDisciplina(4)"></td>
+        <td><input type="number" id="notaDisciplina4_4" placeholder="Inserir nota 4" onchange="calcularDisciplina(4)"></td>
+        <td><p type="number" id="somaDisciplina4"></p></td>
+        <td><p type="number" id="mediaDisciplina4"></p></td>
+        <td><p type="number" id="situacaoDisciplina4"></p></td>
+      </tr>
+      <tr>
+        <td>História</td>
+        <td><input type="number" id="notaDisciplina5_1" placeholder="Inserir nota 1" onchange="calcularDisciplina(5)"></td>
+        <td><input type="number" id="notaDisciplina5_2" placeholder="Inserir nota 2" onchange="calcularDisciplina(5)"></td>
+        <td><input type="number" id="notaDisciplina5_3" placeholder="Inserir nota 3" onchange="calcularDisciplina(5)"></td>
+        <td><input type="number" id="notaDisciplina5_4" placeholder="Inserir nota 4" onchange="calcularDisciplina(5)"></td>
+        <td><p type="number" id="somaDisciplina5"></p></td>
+        <td><p type="number" id="mediaDisciplina5"></p></td>
+        <td><p type="number" id="situacaoDisciplina5"></p></td>
+      </tr>
+      <tr>
+        <td>Geografia</td>
+        <td><input type="number" id="notaDisciplina6_1" placeholder="Inserir nota 1" onchange="calcularDisciplina(6)"></td>
+        <td><input type="number" id="notaDisciplina6_2" placeholder="Inserir nota 2" onchange="calcularDisciplina(6)"></td>
+        <td><input type="number" id="notaDisciplina6_3" placeholder="Inserir nota 3" onchange="calcularDisciplina(6)"></td>
+        <td><input type="number" id="notaDisciplina6_4" placeholder="Inserir nota 4" onchange="calcularDisciplina(6)"></td>
+        <td><p type="number" id="somaDisciplina6"></p></td>
+        <td><p type="number" id="mediaDisciplina6"></p></td>
+        <td><p type="number" id="situacaoDisciplina6"></p></td>
+      </tr>
+      <tr>
+        <td>Portugues</td>
+        <td><input type="number" id="notaDisciplina7_1" placeholder="Inserir nota 1" onchange="calcularDisciplina(7)"></td>
+        <td><input type="number" id="notaDisciplina7_2" placeholder="Inserir nota 2" onchange="calcularDisciplina(7)"></td>
+        <td><input type="number" id="notaDisciplina7_3" placeholder="Inserir nota 3" onchange="calcularDisciplina(7)"></td>
+        <td><input type="number" id="notaDisciplina7_4" placeholder="Inserir nota 4" onchange="calcularDisciplina(7)"></td>
+        <td><p type="number" id="somaDisciplina7"></p></td>
+        <td><p type="number" id="mediaDisciplina7"></p></td>
+        <td><p type="number" id="situacaoDisciplina7"></p></td>
+      </tr>
+    </table>
+    <p>Resultado Final</p>
+    <label for="setMedia">Media Mínima: <input type="number" id="setMedia" onchange="setMedia()" placeholder="6"></label>
+  </div>
+  <br/>
+  <p align="center">&copy; Kenny Vargas</p>
+  <script src="controler.js"></script>
+</body>
+</html>

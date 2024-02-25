@@ -1,0 +1,56 @@
+
+:root {
+  --primeira-cor: #ff77cc;
+  --segunda-cor: #222;
+  --fundo: #111;
+}
+
+body {
+  text-align: center;
+  background-color: var(--fundo);
+  color: var(--primeira-cor);
+  font: italic 24px candara;
+}
+
+div {
+  margin: 10px auto;
+  border: dotted var(--primeira-cor);
+  background-color: var(--segunda-cor);
+  width: 90%;
+  max-width: 1000px;
+  padding: 35x;
+}
+
+select {
+  overflow: hidden;
+  text-align: center;
+  width: 200px;
+  border: none;
+  padding: 8px;
+  font: italic 24px cambria;
+  background-color: var(--fundo);
+  color: var(--primeira-cor)
+}
+
+input {
+  font: italic 15px negrito candara;
+  background-color: var(--segunda-cor);
+  color: var(--primeira-cor);
+  border: none;
+  padding: 8px;
+} 
+
+button {
+  font: italic 16px cambria;
+  border: none;
+  margin: 8px;
+  padding: 8px;
+  color: var(--primeira-cor) ;
+  background-color: var(--fundo);
+  box-shadow: 0 0 3px var(--primeira-cor);
+} 
+
+button:hover {
+  color: var(--fundo);
+  background-color: var(--primeira-cor);
+}

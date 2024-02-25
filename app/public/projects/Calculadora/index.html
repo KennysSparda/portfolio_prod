@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div id="mainForm">
+      <div id="header">
+        <h1>Calculadora</h1>
+      </div>
+      <input id="Display1"></input>
+      <input id="Display3"></input><br>
+      <input id="Display2"></input><br>
+      <table>
+        <tr>
+          <th><button id="btn" onClick="btn(1)">1</button></th>
+          <th><button id="btn" onClick="btn(2)">2</button></th>
+          <th><button id="btn" onClick="btn(3)">3</button></th>
+          <th><button id="btnF" onClick="divide()">/</button></th>
+          <th><button id="btnC" onClick="limpa()">C</button></th>
+        </tr>
+        <tr>
+          <th><button id="btn" onClick="btn(4)">4</button></th>
+          <th><button id="btn" onClick="btn(5)">5</button></th>
+          <th><button id="btn" onClick="btn(6)">6</button></th>
+          <th><button id="btnF" onClick="mult()">x</button></th>
+        </tr>
+        <tr>
+          <th><button id="btn" onClick="btn(7)">7</button></th>
+          <th><button id="btn" onClick="btn(8)">8</button></th>
+          <th><button id="btn" onClick="btn(9)">9</button></th>
+          <th><button id="btnF" onClick="subtrai()">-</button></th>
+        </tr>
+        <tr>
+          <th><button id="btn" onClick="btn('.')">.</button></th>
+          <th><button id="btn" onClick="btn(0)">0</button></th>
+          <th><button id="btnE" onClick="igual()">=</button></th>
+          <th><button id="btnF" onClick="soma()">+</button></th>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

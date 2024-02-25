@@ -1,0 +1,4 @@
+const nextCofig = {
+  output: 'standalone',
+  
+}
